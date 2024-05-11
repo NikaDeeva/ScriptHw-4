@@ -2,14 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", url="https://another.com">
     <title>Document</title>
 </head>
 <body>
-    <!-- 1 -->
+    <h3>1</h3>
     <input type="text" id="one" placeholder="Write something">
     <input type="text" id="two" placeholder="Write something">
     <button onclick="checkFields()">Check</button>
-    <script src="./script.js"></script>
+    <h3>2</h3>
+<input type="number" id="num-one" placeholder="Write num">
+<input type="number" id="num-two" placeholder="Write num">
+<button onclick="checkSum()">Check</button>
+<h3>3</h3>
+<input type="text" id="textField" placeholder="Write word">
+<button onclick="checkText()">Check</button>
+<h3>4</h3>
+<form>
+    <input type="number" id="inputNum" placeholder="Write num">
+    <button onclick="checkNum()">Check</button>
+</form>
+<h3>5</h3>
+<form>
+    <input id="inputName" type="text" placeholder="Your name" />
+    <input id="inputMail" type="email" placeholder="Your email" />
+    <input id="inputPass" type="password" placeholder="Your password" />
+    <button onclick="checkForm()">Перевірка</button>
+  </form>
+<script src="./script.js"></script>
 </body>
 </html>
